@@ -15,20 +15,20 @@ This tool automates compliance auditing by allowing users to upload their BOM sp
 ---
 
 ## Key Features
-* **Multi-Format Upload:** Supports `.csv`, `.xlsx`, and `.xls` files of any column order[span_1](start_span)[span_1](end_span).
-* **Auto-Detect Column Mapping:** Automatically recognizes standard BOM fields (Part Number, Component Name, Supplier, Country of Origin) as well as retail product structures[span_2](start_span)[span_2](end_span).
+* **Multi-Format Upload:** Supports `.csv`, `.xlsx`, and `.xls` files of any column order.
+* **Auto-Detect Column Mapping:** Automatically recognizes standard BOM fields (Part Number, Component Name, Supplier, Country of Origin) as well as retail product structures.
 * **Automated Risk Screening:** Cross-checks components and suppliers against:
-  * Sanctioned Countries (OFAC / EU / UN embargoes)[span_3](start_span)[span_3](end_span)
-  * Restricted Entities (Denied-party supplier lists)[span_4](start_span)[span_4](end_span)
-  * Controlled Keywords (EAR / ITAR dual-use terms)[span_5](start_span)[span_5](end_span)
-* **Audit Reporting:** Flags high-risk items for review and allows users to download the completed compliance audit report[span_6](start_span)[span_6](end_span).
+  * Sanctioned Countries (OFAC / EU / UN embargoes)
+  * Restricted Entities (Denied-party supplier lists)
+  * Controlled Keywords (EAR / ITAR dual-use terms)
+* **Audit Reporting:** Flags high-risk items for review and allows users to download the completed compliance audit report.
 
 ---
 
 ## Repository Structure
-* `app.py` — Main Streamlit web application and screening logic[span_7](start_span)[span_7](end_span).
-* `requirements.txt` — Python dependencies required for cloud deployment[span_8](start_span)[span_8](end_span).
-* `sample_bom.csv` — Sample dataset for testing the screening workflow[span_9](start_span)[span_9](end_span).
+* `app.py` — Main Streamlit web application and screening logic.
+* `requirements.txt` — Python dependencies required for cloud deployment.
+* `sample_bom.csv` — Sample dataset for testing the screening workflow.
 
 ---
 
